@@ -89,7 +89,8 @@ display: grid;
 grid-template-columns: 25% 70%;
 width: 100%;
 height: 500px;
-background-color: orange;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 13%, rgba(0,212,255,1) 100%);
 }
 .containerimage{
 width: 435px;
