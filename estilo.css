@@ -1,0 +1,141 @@
+*{
+padding: 0;
+margin: 0;
+}
+a, li{
+font-family: roboto, sans-serif;
+text-decoration: none;
+list-style: none
+}
+header{
+background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0.5px 2px;
+}
+.nav-menu ul{
+display: flex;
+align-items: center;
+}
+.nav-menu li{
+margin-right: 40px;
+}
+.nav-menu a:hover{
+color: white;
+}
+a{
+color: white;
+}
+.nav-menu li:last-child{
+background-color: #45C910;
+border: 2px solid #45C910;
+padding: 3px;
+border-radius: 3px;
+}
+.nav-menu
+li:last-child:hover{
+background-color: transparent; border: 2px solid #4ad295;
+}
+body{
+background-color: #B6B7B5;
+}
+p {
+font-family: verdana;
+color: black;
+margin: 20px;
+font-style: italic;
+font-weight: 100;
+}
+.clearfix{
+clear: both;
+}
+footer{
+background: black;
+color: white;
+text-align: center;
+height: 50px;
+line-height: 50px;
+}
+.text-informacion{
+text-align: center;
+margin: 20px;
+font-family: verdana;
+}
+.text-productos{
+text-align: center;
+margin: 20px;
+font-family: verdana;
+}
+.text-contactos{
+text-align: center;
+margin: 20px;
+font-family: verdana;
+}
+.p-contactos{
+text-align: center;
+}
+.contactos-selector{
+text-align: center;
+}
+.text-virtudes{
+text-align: center;
+margin: 20px;
+font-family: verdana;
+font-size: 25px;
+}
+.container{
+display: grid;
+grid-template-columns: 25% 70%;
+width: 100%;
+height: 500px;
+background-color: orange;
+}
+.containerimage{
+width: 435px;
+}
+.containertext{
+text-align: left;
+padding: 100px;
+font-family: roboto, sans-serif;
+font-size: 35px;
+}
+.containerarticle{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+}
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+.container{
+display: flex;
+width: 100%;
+height: auto;
+flex-direction: column;
+padding: 20px;
+}
+.containerimage{
+width: 90%;
+}
+.containertext{
+text-align: center;
+font-family: roboto, sans-serif;
+font-size: 35px;
+}
+.containerarticle{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+.header{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+width: 100%;
+}
+.nav-menu li{
+margin-right: 20px;
+}
