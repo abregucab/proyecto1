@@ -8,11 +8,13 @@ text-decoration: none;
 list-style: none
 }
 header{
-background-color: black;
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(21,23,23,1) 30%, rgba(122,215,215,1) 58%, rgba(175,255,255,1) 100%);
 display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 0.5px 2px;
+border: 2px black solid;
 }
 .nav-menu ul{
 display: flex;
@@ -38,8 +40,8 @@ li:last-child:hover{
 background-color: transparent; border: 2px solid #4ad295;
 }
 body{
-background: rgb(112,158,170);
-background: radial-gradient(circle, rgba(112,158,170,1) 0%, rgba(25,113,120,1) 81%, rgba(28,85,87,1) 100%);
+background: rgb(84,149,148);
+background: linear-gradient(90deg, rgba(84,149,148,1) 0%, rgba(122,215,215,1) 58%, rgba(175,255,255,1) 100%);
 }
 p {
 font-family: verdana;
