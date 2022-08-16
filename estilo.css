@@ -2,6 +2,26 @@
   padding: 0;
   margin: 0;
 }
+.fondo-animado {
+  position: absolute;
+  font-weight: bold;
+  background: rgb(138,236,226);
+  background: linear-gradient(90deg, rgba(138,236,226,1) 0%, rgba(139,203,196,1) 50%, rgba(194,220,221,1) 100%);
+  );
+  background-size: 400% 300%;
+  animation: BgGradient 5s ease infinite;
+}
+@keyframes BgGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 a,
 li {
   font-family: roboto, sans-serif;
@@ -9,12 +29,8 @@ li {
   list-style: none;
 }
 header {
-  background: rgb(142, 147, 147);
-  background: linear-gradient(
-    90deg,
-    rgba(142, 147, 147, 1) 0%,
-    rgba(122, 215, 215, 1) 58%,
-    rgba(175, 255, 255, 1) 100%
+    background: rgb(138,236,226);
+    background: linear-gradient(90deg, rgba(138,236,226,1) 0%, rgba(139,203,196,1) 50%, rgba(194,220,221,1) 100%);
   );
   display: flex;
   justify-content: space-between;
@@ -47,13 +63,8 @@ a {
 }
 body {
   overflow-x: hidden;
-  background: rgb(84, 149, 148);
-  background: linear-gradient(
-    90deg,
-    rgba(84, 149, 148, 1) 0%,
-    rgba(122, 215, 215, 1) 58%,
-    rgba(175, 255, 255, 1) 100%
-  );
+  background: rgb(138,236,226);
+  background: linear-gradient(90deg, rgba(138,236,226,1) 0%, rgba(139,203,196,1) 50%, rgba(194,220,221,1) 100%);
 }
 p {
   font-family: verdana;
@@ -75,17 +86,17 @@ footer {
 .text-informacion {
   text-align: center;
   margin: 20px;
-  font-family: verdana;
+  font-family: "Coustard", serif;
 }
 .text-productos {
   text-align: center;
   margin: 20px;
-  font-family: verdana;
+  font-family: "Coustard", serif;
 }
 .text-contactos {
   text-align: center;
   margin: 20px;
-  font-family: verdana;
+  font-family: "Coustard", serif;
 }
 .p-contactos {
   text-align: center;
@@ -96,7 +107,7 @@ footer {
 .text-virtudes {
   text-align: center;
   margin: 20px;
-  font-family: verdana;
+  font-family: "Coustard", serif;
   font-size: 25px;
 }
 .contenedor {
