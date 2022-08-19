@@ -5,8 +5,12 @@
 .fondo-animado {
   position: absolute;
   font-weight: bold;
-  background: rgb(138,236,226);
-  background: linear-gradient(90deg, rgba(138,236,226,1) 0%, rgba(139,203,196,1) 50%, rgba(194,220,221,1) 100%);
+  background: rgb(138, 236, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 236, 226, 1) 0%,
+    rgba(139, 203, 196, 1) 50%,
+    rgba(194, 220, 221, 1) 100%
   );
   background-size: 400% 300%;
   animation: BgGradient 5s ease infinite;
@@ -29,8 +33,12 @@ li {
   list-style: none;
 }
 header {
-    background: rgb(138,236,226);
-    background: linear-gradient(90deg, rgba(138,236,226,1) 0%, rgba(139,203,196,1) 50%, rgba(194,220,221,1) 100%);
+  background: rgb(138, 236, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 236, 226, 1) 0%,
+    rgba(139, 203, 196, 1) 50%,
+    rgba(194, 220, 221, 1) 100%
   );
   display: flex;
   justify-content: space-between;
@@ -63,8 +71,13 @@ a {
 }
 body {
   overflow-x: hidden;
-  background: rgb(138,236,226);
-  background: linear-gradient(90deg, rgba(138,236,226,1) 0%, rgba(139,203,196,1) 50%, rgba(194,220,221,1) 100%);
+  background: rgb(138, 236, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 236, 226, 1) 0%,
+    rgba(139, 203, 196, 1) 50%,
+    rgba(194, 220, 221, 1) 100%
+  );
 }
 p {
   font-family: verdana;
