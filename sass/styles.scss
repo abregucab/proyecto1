@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.fondo-animado {
+  position: absolute;
+  font-weight: bold;
+  background: rgb(138, 236, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 236, 226, 1) 0%,
+    rgba(139, 203, 196, 1) 50%,
+    rgba(194, 220, 221, 1) 100%
+  );
+  background-size: 400% 300%;
+  animation: BgGradient 5s ease infinite;
+}
+@keyframes BgGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+a,
+li {
+  font-family: roboto, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  background: rgb(138, 236, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 236, 226, 1) 0%,
+    rgba(139, 203, 196, 1) 50%,
+    rgba(194, 220, 221, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5px 2px;
+  border-bottom: 3.5px #8c8c8c solid;
+}
+.nav-menu {
+  ul {
+    display: flex;
+    align-items: center;
+  }
+  li {
+    margin-right: 40px;
+    &:last-child {
+      background-color: #45c910;
+      border: 2px solid #45c910;
+      padding: 3px;
+      border-radius: 3px;
+      &:hover {
+        background-color: transparent;
+        border: 2px solid #4ad295;
+      }
+    }
+  }
+  a {
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+a {
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+  background: rgb(138, 236, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 236, 226, 1) 0%,
+    rgba(139, 203, 196, 1) 50%,
+    rgba(194, 220, 221, 1) 100%
+  );
+}
+p {
+  font-family: verdana;
+  color: black;
+  margin: 20px;
+  font-style: italic;
+  font-weight: 100;
+}
+.clearfix {
+  clear: both;
+}
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+.text-informacion {
+  text-align: center;
+  margin: 20px;
+  font-family: "Coustard", serif;
+}
+.text-productos {
+  text-align: center;
+  margin: 20px;
+  font-family: "Coustard", serif;
+}
+.text-contactos {
+  text-align: center;
+  margin: 20px;
+  font-family: "Coustard", serif;
+}
+.p-contactos {
+  text-align: center;
+}
+.contactos-selector {
+  text-align: center;
+}
+.text-virtudes {
+  text-align: center;
+  margin: 20px;
+  font-family: "Coustard", serif;
+  font-size: 25px;
+}
+.contenedor {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  width: 100%;
+  height: 300px;
+}
+.containerimage {
+  width: 75%;
+  height: 75%;
+}
+.containertext {
+  text-align: left;
+  padding: 100px;
+  font-family: roboto, sans-serif;
+  font-size: 20px;
+}
+.containerarticle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .contenedor {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .containerimage {
+    width: 90%;
+  }
+  .containertext {
+    text-align: center;
+    font-family: roboto, sans-serif;
+    font-size: 35px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  .nav-menu {
+    li {
+      margin-right: 20px;
+    }
+  }
+}
