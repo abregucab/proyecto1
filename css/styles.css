@@ -58,7 +58,7 @@ header {
   border: 2px solid #4ad295;
 }
 .nav-menu a:hover {
-  color: white;
+  color: green;
 }
 
 a {
@@ -89,12 +89,6 @@ footer {
   text-align: center;
   height: 50px;
   line-height: 50px;
-}
-
-.text-informacion {
-  text-align: center;
-  margin: 20px;
-  font-family: "Coustard", serif;
 }
 
 .text-productos {
@@ -177,6 +171,11 @@ footer {
   .nav-menu li {
     margin-right: 20px;
   }
+}
+.text-informacion {
+  text-align: center;
+  margin: 20px;
+  font-family: "Coustard";
 }
 
 /*# sourceMappingURL=styles.css.map */
